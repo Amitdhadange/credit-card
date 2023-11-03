@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90.75%, 54.81% 93.66%, 19.85% 96.63%, 0% 89.25%);
+    background-color: #a35be4
+    /* background-image: linear-gradient( blueviolet),rgb(173, 173, 255); */
+    
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vmax;
+}
+.nav>ul{
+    display:flex;
+    gap: 3vmax;
+    list-style: none;
+    font-size: 1.3vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.nav>ul>li:hover{
+    font-weight: 600;
+    cursor:pointer;
+}
+.mid{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.left{
+    width: 40%;
+    height: 90vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left>h1{
+    font-size: 5vmax;
+    margin-bottom: 1vmax;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left>p{
+    font-size: 1.4vmax;
+    margin-bottom: 2vmax;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left>button{
+    padding: 1vmax 2vmax;
+    background: whitesmoke;
+    color: #a35be4;
+    margin-left: -10vmax;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right{
+    width: 50%;
+    height: 90vh;
+    background-image: url(https://offercdn.paytm.com/blog/2022/10/credit-card/hdfc-card.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* mix-blend-mode: multiply; */
+}
+/* <------------------------------------------------------------------------> */
+.page2{
+    width: 100%;
+    height: 100vh;
+}
+.nav2{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2>h2{
+    font-size: 2.3vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.mid2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vmax;
+
+}
+.box1{
+    width: 25%;
+    height: 50vh;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95);
+    -webkit-box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95);
+    -moz-box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95); */
+}
+.box1:hover{
+    box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);
+    -moz-box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);    
+}
+.box1>.logo1{
+    width: 10vmax ;
+    height: 10vmax;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3163/3163260.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .2s ease-in-out;
+}
+.box1>.logo1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.box1>p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box1>h2{
+    /* color: #a35be4; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box2{
+    width: 25%;
+    height: 50vh;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95);
+    -webkit-box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95);
+    -moz-box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95); */
+}
+.box2:hover{
+    box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);
+    -moz-box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);   
+}
+.box2>h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box2>p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box2>.logo2{
+    width:10vmax ;
+    height: 10vmax;
+    background-image: url(https://cdn3d.iconscout.com/3d/premium/thumb/credit-card-with-lock-5108469-4288035.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .2s ease-in-out;
+    background-position: center;
+}
+.box2>.logo2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.box3{
+    width: 25%;
+    height: 50vh;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95);
+    -webkit-box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95);
+    -moz-box-shadow: 10px 10px 74px -15px rgba(0,0,0,90.95); */
+}
+.box3:hover{
+    box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);
+    -moz-box-shadow: 10px 10px 74px -15px rgba(0,0,0,0.30);   
+}
+.box3>h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box3>p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box3>.logo3{
+    width: 10vmax ;
+    height: 10vmax;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/012/707/272/original/3d-human-hand-holding-bank-orange-credit-card-online-payment-mobile-bankind-transaction-and-shopping-concept-high-quality-isolated-render-png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: multiply;
+    transition: .2s ease-in-out;
+}
+.box3>.logo3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+}
+.nav3{
+    width: 100%;
+    height: 15vh;
+    /* background-color: #a35be4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav3>h2{
+    font-size: 2.3vmax;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.midi{
+    width: 100%;
+    height: 85vh;
+    /* background-color: #f0deff; */
+}
+
+.page4{
+    width: 100%;
+    height: 100vh;
+}
+.nav4{
+    width: 100%;
+    height: 15vh;
+    /* background-color: #a35be4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav4>h2{
+    font-size: 2.5vmax;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.midi1{
+    width: 100%;
+    height: 90vh;
+}
+.midi1>.img2{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://img.freepik.com/free-vector/four-credit-cards-different-colors_1017-30675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* mix-blend-mode: multiply; */
+
+}
+.page4{
+    width: 100%;
+    height: 50vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.boxi{
+    width: 20%;
+    height: 50vh;
+    /* background-color: #a35be4; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxi>ul{
+    list-style: none;
+    font-size: 1.5vmax;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2vmax;
+    
+}
+.boxi>ul>li:hover{
+    cursor: pointer;
+    font-weight: 900;
+}
+.boxi>p{
+    font-size: 1.5vmax;
+    margin-top: 2vmax;
+}
+.boxi>.so{
+    display: flex;
+    font-size: 2vmax;
+    gap: 2vmax;
+}
